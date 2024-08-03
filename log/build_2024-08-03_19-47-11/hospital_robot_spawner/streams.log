@@ -1,0 +1,26 @@
+[0.800s] Invoking command in '/ros2_ws/src/hospital_robot_spawner': PYTHONPATH=/ros2_ws/build/hospital_robot_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hospital_robot_spawner build --build-base /ros2_ws/build/hospital_robot_spawner/build install --record /ros2_ws/build/hospital_robot_spawner/install.log --single-version-externally-managed install_data
+[1.163s] running egg_info
+[1.164s] writing ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/PKG-INFO
+[1.164s] writing dependency_links to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/dependency_links.txt
+[1.164s] writing entry points to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/entry_points.txt
+[1.164s] writing requirements to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/requires.txt
+[1.164s] writing top-level names to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/top_level.txt
+[1.168s] reading manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[1.169s] writing manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[1.169s] running build
+[1.169s] running build_py
+[1.170s] copying hospital_robot_spawner/hospitalbot_simplified_env.py -> /ros2_ws/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[1.170s] running install
+[1.171s] running install_lib
+[1.172s] copying /ros2_ws/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/hospitalbot_simplified_env.py -> /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[1.173s] byte-compiling /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/hospitalbot_simplified_env.py to hospitalbot_simplified_env.cpython-310.pyc
+[1.175s] running install_data
+[1.176s] running install_egg_info
+[1.179s] removing '/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner-0.0.0-py3.10.egg-info' (and everything under it)
+[1.179s] Copying ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info to /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner-0.0.0-py3.10.egg-info
+[1.180s] running install_scripts
+[1.217s] Installing spawn_demo script to /ros2_ws/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[1.217s] Installing start_training script to /ros2_ws/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[1.217s] Installing trained_agent script to /ros2_ws/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[1.218s] writing list of installed files to '/ros2_ws/build/hospital_robot_spawner/install.log'
+[1.295s] Invoked command in '/ros2_ws/src/hospital_robot_spawner' returned '0': PYTHONPATH=/ros2_ws/build/hospital_robot_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hospital_robot_spawner build --build-base /ros2_ws/build/hospital_robot_spawner/build install --record /ros2_ws/build/hospital_robot_spawner/install.log --single-version-externally-managed install_data

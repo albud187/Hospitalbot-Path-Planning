@@ -43,20 +43,7 @@ def main(args=None):
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
-    # # Register the gym environment created in hospitalbot_env module
-    # register(
-    #     id="HospitalBotEnv-v0",
-    #     entry_point="hospital_robot_spawner.hospitalbot_simplified_env:HospitalBotSimpleEnv",
-    #     max_episode_steps=300,
-    # )
-
-    # node.get_logger().info("The environment has been registered")
-
-    # # Create and wrap the environment
-    # env = gym.make('HospitalBotEnv-v0')
-    # print(env.action_space)
-    # print(env.observation_space)
-    # env = Monitor(env)
+    # Register the gym environment created in hospitalbot_env module
 
     env = HospitalBotSimpleEnv()
     # Here we check if the custom gym environment is fine
@@ -68,7 +55,8 @@ def main(args=None):
     eval_callback = EvalCallback(env, callback_on_new_best=stop_callback, eval_freq=100000, best_model_save_path=trained_models_dir, n_eval_episodes=40)
 
     ## Train the model
-    model = PPO("MlpPolicy", env, 
+    model = PPO("MlpPolicy", 
+                env, 
                 verbose=1, 
                 tensorboard_log=log_dir, 
                 n_steps=20480, 
@@ -81,12 +69,13 @@ def main(args=None):
     
     # Execute training
     try:
-        model.learn(total_timesteps=int(40000000), 
+        model.learn(total_timesteps=int(100), 
                     reset_num_timesteps=False, 
                     callback=eval_callback, 
-                    tb_log_name="PPO_test")
+                    tb_log_name="PPO_test-1k",
+                    progress_bar=True)
     except KeyboardInterrupt:
-        model.save(f"{trained_models_dir}/PPO_test")
+        model.save(f"{trained_models_dir}/PPO_test_1")
     # Save the trained model
     model.save(f"{trained_models_dir}/PPO_test")
 
