@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hospital-robot-spawner
+Version: 0.0.0
+Summary: This package creates a simulation in Gazebo which includes a differential drive robot with Lidar and a Hospital world
+Home-page: UNKNOWN
+Maintainer: Tommaso Van Der Meer
+Maintainer-email: tommaso.vandermeer@student.unisi.it
+License: I am a student, I dont know what to put here :)
+Platform: UNKNOWN
+
+UNKNOWN
+

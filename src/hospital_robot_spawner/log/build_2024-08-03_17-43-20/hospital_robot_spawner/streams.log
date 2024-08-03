@@ -1,0 +1,82 @@
+[0.611s] Invoking command in '/ros2_ws/src/hospital_robot_spawner': PYTHONPATH=/ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/hospital_robot_spawner build --build-base /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build install --record /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/install.log --single-version-externally-managed install_data
+[0.819s] running egg_info
+[0.820s] creating build/hospital_robot_spawner/hospital_robot_spawner.egg-info
+[0.820s] writing build/hospital_robot_spawner/hospital_robot_spawner.egg-info/PKG-INFO
+[0.820s] writing dependency_links to build/hospital_robot_spawner/hospital_robot_spawner.egg-info/dependency_links.txt
+[0.820s] writing entry points to build/hospital_robot_spawner/hospital_robot_spawner.egg-info/entry_points.txt
+[0.821s] writing requirements to build/hospital_robot_spawner/hospital_robot_spawner.egg-info/requires.txt
+[0.821s] writing top-level names to build/hospital_robot_spawner/hospital_robot_spawner.egg-info/top_level.txt
+[0.821s] writing manifest file 'build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[0.822s] reading manifest file 'build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[0.823s] writing manifest file 'build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.824s] creating /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build
+[0.824s] creating /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib
+[0.824s] creating /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.824s] copying hospital_robot_spawner/robot_controller.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] copying hospital_robot_spawner/start_training.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] copying hospital_robot_spawner/trained_agent.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] copying hospital_robot_spawner/__init__.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] copying hospital_robot_spawner/hospitalbot_simplified_env.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] copying hospital_robot_spawner/hospitalbot_env.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] copying hospital_robot_spawner/spawn_demo.py -> /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.825s] running install
+[0.825s] running install_lib
+[0.826s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.826s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/robot_controller.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.826s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/start_training.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.826s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/trained_agent.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.827s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/__init__.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.827s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/hospitalbot_simplified_env.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.827s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/hospitalbot_env.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.827s] copying /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/spawn_demo.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.827s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/robot_controller.py to robot_controller.cpython-310.pyc
+[0.828s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/start_training.py to start_training.cpython-310.pyc
+[0.829s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/trained_agent.py to trained_agent.cpython-310.pyc
+[0.829s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/__init__.py to __init__.cpython-310.pyc
+[0.829s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/hospitalbot_simplified_env.py to hospitalbot_simplified_env.cpython-310.pyc
+[0.830s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/hospitalbot_env.py to hospitalbot_env.cpython-310.pyc
+[0.835s] byte-compiling /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/spawn_demo.py to spawn_demo.cpython-310.pyc
+[0.835s] running install_data
+[0.836s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/ament_index
+[0.836s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/ament_index/resource_index
+[0.836s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/ament_index/resource_index/packages
+[0.836s] copying resource/hospital_robot_spawner -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/ament_index/resource_index/packages
+[0.836s] copying package.xml -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner
+[0.837s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.837s] copying launch/headless_world.launch.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.837s] copying launch/discretized_hospital.launch.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.837s] copying launch/start_training.launch.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.838s] copying launch/trained_agent.launch.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.838s] copying launch/test.launch.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.838s] copying launch/gazebo_world.launch.py -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+[0.838s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/config
+[0.838s] copying config/training_parameters.yaml -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/config
+[0.838s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds
+[0.838s] copying ./worlds/hospital_training.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+[0.838s] copying ./worlds/hospital.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+[0.839s] copying ./worlds/hospital_discretized.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+[0.839s] copying ./worlds/test.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+[0.840s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models
+[0.840s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/mobile_warehouse_robot
+[0.841s] copying ./models/mobile_warehouse_robot/model.config -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/mobile_warehouse_robot/
+[0.841s] copying ./models/mobile_warehouse_robot/model.sdf -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/mobile_warehouse_robot/
+[0.841s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/pioneer3at
+[0.841s] copying ./models/pioneer3at/model.sdf -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/pioneer3at/
+[0.841s] copying ./models/pioneer3at/model.config -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/pioneer3at/
+[0.841s] creating /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/Target
+[0.841s] copying ./models/Target/model.sdf -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/Target/
+[0.841s] copying ./models/Target/model.config -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/Target/
+[0.842s] copying ./worlds/hospital_training.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+[0.842s] copying ./worlds/hospital.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+[0.842s] copying ./worlds/hospital_discretized.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+[0.842s] copying ./worlds/test.world -> /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+[0.842s] running install_egg_info
+[0.843s] Copying build/hospital_robot_spawner/hospital_robot_spawner.egg-info to /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner-0.0.0-py3.10.egg-info
+[0.843s] running install_scripts
+[0.862s] Installing spawn_demo script to /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[0.862s] Installing start_training script to /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[0.863s] Installing trained_agent script to /ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[0.863s] writing list of installed files to '/ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/install.log'
+[0.882s] Invoked command in '/ros2_ws/src/hospital_robot_spawner' returned '0': PYTHONPATH=/ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/src/hospital_robot_spawner/install/hospital_robot_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/hospital_robot_spawner build --build-base /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/build install --record /ros2_ws/src/hospital_robot_spawner/build/hospital_robot_spawner/install.log --single-version-externally-managed install_data

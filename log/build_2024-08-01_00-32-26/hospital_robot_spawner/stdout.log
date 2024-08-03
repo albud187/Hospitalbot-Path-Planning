@@ -1,0 +1,80 @@
+running egg_info
+creating ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info
+writing ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/PKG-INFO
+writing dependency_links to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/dependency_links.txt
+writing entry points to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/entry_points.txt
+writing requirements to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/requires.txt
+writing top-level names to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/top_level.txt
+writing manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+reading manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+writing manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workdir/build/hospital_robot_spawner/build
+creating /workdir/build/hospital_robot_spawner/build/lib
+creating /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/robot_controller.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/start_training.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/trained_agent.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/__init__.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/hospitalbot_simplified_env.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/hospitalbot_env.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+copying hospital_robot_spawner/spawn_demo.py -> /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+running install
+running install_lib
+creating /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/robot_controller.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/start_training.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/trained_agent.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/__init__.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/hospitalbot_simplified_env.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/hospitalbot_env.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+copying /workdir/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/spawn_demo.py -> /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/robot_controller.py to robot_controller.cpython-310.pyc
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/start_training.py to start_training.cpython-310.pyc
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/trained_agent.py to trained_agent.cpython-310.pyc
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/hospitalbot_simplified_env.py to hospitalbot_simplified_env.cpython-310.pyc
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/hospitalbot_env.py to hospitalbot_env.cpython-310.pyc
+byte-compiling /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/spawn_demo.py to spawn_demo.cpython-310.pyc
+running install_data
+creating /workdir/install/hospital_robot_spawner/share/ament_index
+creating /workdir/install/hospital_robot_spawner/share/ament_index/resource_index
+creating /workdir/install/hospital_robot_spawner/share/ament_index/resource_index/packages
+copying resource/hospital_robot_spawner -> /workdir/install/hospital_robot_spawner/share/ament_index/resource_index/packages
+copying package.xml -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+copying launch/headless_world.launch.py -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+copying launch/discretized_hospital.launch.py -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+copying launch/start_training.launch.py -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+copying launch/trained_agent.launch.py -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+copying launch/test.launch.py -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+copying launch/gazebo_world.launch.py -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/launch
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/config
+copying config/training_parameters.yaml -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/config
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds
+copying ./worlds/hospital_training.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+copying ./worlds/hospital.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+copying ./worlds/hospital_discretized.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+copying ./worlds/test.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/worlds/
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/mobile_warehouse_robot
+copying ./models/mobile_warehouse_robot/model.config -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/mobile_warehouse_robot/
+copying ./models/mobile_warehouse_robot/model.sdf -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/mobile_warehouse_robot/
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/pioneer3at
+copying ./models/pioneer3at/model.sdf -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/pioneer3at/
+copying ./models/pioneer3at/model.config -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/pioneer3at/
+creating /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/Target
+copying ./models/Target/model.sdf -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/Target/
+copying ./models/Target/model.config -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/Target/
+copying ./worlds/hospital_training.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+copying ./worlds/hospital.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+copying ./worlds/hospital_discretized.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+copying ./worlds/test.world -> /workdir/install/hospital_robot_spawner/share/hospital_robot_spawner/models/
+running install_egg_info
+Copying ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info to /workdir/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spawn_demo script to /workdir/install/hospital_robot_spawner/lib/hospital_robot_spawner
+Installing start_training script to /workdir/install/hospital_robot_spawner/lib/hospital_robot_spawner
+Installing trained_agent script to /workdir/install/hospital_robot_spawner/lib/hospital_robot_spawner
+writing list of installed files to '/workdir/build/hospital_robot_spawner/install.log'

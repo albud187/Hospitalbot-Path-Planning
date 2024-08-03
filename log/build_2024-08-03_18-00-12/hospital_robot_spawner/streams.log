@@ -1,0 +1,29 @@
+[0.552s] Invoking command in '/ros2_ws/src/hospital_robot_spawner': PYTHONPATH=/ros2_ws/build/hospital_robot_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hospital_robot_spawner build --build-base /ros2_ws/build/hospital_robot_spawner/build install --record /ros2_ws/build/hospital_robot_spawner/install.log --single-version-externally-managed install_data
+[0.774s] running egg_info
+[0.775s] writing ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/PKG-INFO
+[0.775s] writing dependency_links to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/dependency_links.txt
+[0.775s] writing entry points to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/entry_points.txt
+[0.776s] writing requirements to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/requires.txt
+[0.776s] writing top-level names to ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/top_level.txt
+[0.777s] reading manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[0.779s] writing manifest file '../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info/SOURCES.txt'
+[0.779s] running build
+[0.779s] running build_py
+[0.779s] copying hospital_robot_spawner/start_training.py -> /ros2_ws/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.779s] copying hospital_robot_spawner/hospitalbot_simplified_env.py -> /ros2_ws/build/hospital_robot_spawner/build/lib/hospital_robot_spawner
+[0.780s] running install
+[0.780s] running install_lib
+[0.781s] copying /ros2_ws/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/start_training.py -> /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.781s] copying /ros2_ws/build/hospital_robot_spawner/build/lib/hospital_robot_spawner/hospitalbot_simplified_env.py -> /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner
+[0.782s] byte-compiling /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/start_training.py to start_training.cpython-310.pyc
+[0.782s] byte-compiling /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner/hospitalbot_simplified_env.py to hospitalbot_simplified_env.cpython-310.pyc
+[0.783s] running install_data
+[0.784s] running install_egg_info
+[0.786s] removing '/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner-0.0.0-py3.10.egg-info' (and everything under it)
+[0.786s] Copying ../../build/hospital_robot_spawner/hospital_robot_spawner.egg-info to /ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages/hospital_robot_spawner-0.0.0-py3.10.egg-info
+[0.787s] running install_scripts
+[0.805s] Installing spawn_demo script to /ros2_ws/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[0.806s] Installing start_training script to /ros2_ws/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[0.806s] Installing trained_agent script to /ros2_ws/install/hospital_robot_spawner/lib/hospital_robot_spawner
+[0.806s] writing list of installed files to '/ros2_ws/build/hospital_robot_spawner/install.log'
+[0.826s] Invoked command in '/ros2_ws/src/hospital_robot_spawner' returned '0': PYTHONPATH=/ros2_ws/build/hospital_robot_spawner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/hospital_robot_spawner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hospital_robot_spawner build --build-base /ros2_ws/build/hospital_robot_spawner/build install --record /ros2_ws/build/hospital_robot_spawner/install.log --single-version-externally-managed install_data
